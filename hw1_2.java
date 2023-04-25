@@ -4,7 +4,7 @@ public class hw1_2 {
     public static void main(String[] args) {
         int[] firstArray = getFilledArray(10);
         int[] secondArray = getFilledArray(9);
-        int[] divArray = divArrays(firstArray, secondArray);
+        divArrays(firstArray, secondArray);
     }
 
     public static int[] divArrays(int[] firstArray, int[] secondArray) {
